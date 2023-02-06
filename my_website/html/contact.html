@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Website</title>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+<link rel="stylesheet" href="html/css/bootstrap.min.css">
+<script src="html/js/bootstrap.min.js"></script>
+
+</head>
+<body class="body-contact">
+	<!--style----->
+	<style>
+		body{
+			font-family:Calibri;
+		}
+	</style>
+    <section class="main">
+        <!--navigation-->
+        <nav>
+            <!--logo-->
+            <a href="#" class="logo">
+                <img src="images/logo.png"/>
+            </a>
+            
+            <!--menu-->
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+
+            </ul>
+        </nav>
+        </section>
+        <main class="contact-page">
+            <!-- intro section -->
+            <section class="intro">
+              <h1 class="title">Please Leave Us Your Details</h1>
+            </section>
+        
+              <!-- the form itself -->
+              <form class="sign-up-form">
+                <div class="form-input">
+                  <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+                  <span>!</span>
+                  <p class="warning">First name cannot be empty</p>
+                </div>
+        
+                <div class="form-input">
+                  <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+                  <span>!</span>
+                  <p class="warning">Last name cannot be empty</p>
+                </div>
+        
+                <div class="form-input">
+                  <input type="email" name="email" id="email" placeholder="Email Address" required>
+                  <span>!</span>
+                  <p class="warning">Looks like this is not an email</p>
+                </div>
+
+                <div class="form-input">
+                    <input type="text" name="text area" id="textarea" placeholder="write Us Yout Thoughts" cols="30" rows="10"></textarea>
+                </div>
+        
+                <input class="submit-btn" type="submit" value="submit">
+                <p class="form-term">By clicking the button, you are agreeing to our <span>Terms and Services</span> </p>
+              </form>
+            </section>
+          </main>
+        
+        
+</body>
+</html>
